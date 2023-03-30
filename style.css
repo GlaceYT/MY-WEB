@@ -1,0 +1,235 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .txt {
+    text-align: right;
+  }
+  
+  
+  /* general styles */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  /* hero styles */
+  .hero {
+    background-image: url("https://cdn.discordapp.com/attachments/1023938134129516574/1090935575525216296/Purple_and_Pink_Neon_Futuristic_Modern_X9x9_Gamers_Gaming_Desktop_Backgrounds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* games styles */
+  .games {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .games h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .games ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .games li {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .games li:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .games li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .games li h3 {
+    font-size: 24px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .games li p {
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+ 
+  /* footer styles */
+  footer {
+    background-image: url("https://cdn.discordapp.com/attachments/1023938134129516574/1090929019609940009/1068431.png");
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .floating-social-media {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .floating-social-media ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .floating-social-media li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .floating-social-media a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .floating-social-media a:hover {
+    transform: scale(1.2);
+  }
+  
+  .floating-social-media i {
+    font-size: 24px;
+  }
+  .about-me {
+    background-image: url("https://cdn.discordapp.com/attachments/1023938134129516574/1090941517646016522/Purple_and_Pink_Neon_Futuristic_Modern_X9x9_Gamers_Gaming_Desktop_Backgrounds_2.png");
+    background-color: #f2f2f2;
+    padding: 80px 0;
+  }
+  
+  .about-me h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-me-text {
+    color: #ccc;
+    flex: 1;
+    max-width: 600px;
+    margin-right: 60px;
+  }
+  
+  .about-me-text p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-image {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .about-me-image img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
